@@ -1,4 +1,4 @@
-# Smart Order
+# TWAP Order
 
 A PoC CoW Protocol **T**ime **W**eighted **A**verage **P**ring smart order.
 
