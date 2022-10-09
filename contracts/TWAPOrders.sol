@@ -7,8 +7,6 @@ import { IERC20 } from "./interfaces/IERC20.sol";
 import { GPv2Order } from "./vendored/GPv2Order.sol";
 import { ICoWSwapOnchainOrders } from "./vendored/ICoWSwapOnchainOrders.sol";
 
-import "hardhat/console.sol";
-
 contract TWAPOrders is ICoWSwapOnchainOrders {
     using GPv2Order for *;
     using TWAPOrder for *;
