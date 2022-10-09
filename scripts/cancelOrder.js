@@ -9,7 +9,7 @@ if (ORDER_ADDRESS === undefined) {
 async function main() {
   const [signer] = await ethers.getSigners();
 
-  const order = (await ethers.getContractAt("GATOrder", ORDER_ADDRESS))
+  const order = (await ethers.getContractAt("TWAPOrderInstance", ORDER_ADDRESS))
     .connect(signer);
 
   console.log(`cancelling order for ${signer.address}`);
